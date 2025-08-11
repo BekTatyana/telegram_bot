@@ -1,5 +1,4 @@
 
-
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode
 ### Python ###
@@ -168,4 +167,5 @@ pyrightconfig.json
 # Ignore all local history of files
 .history
 .ionide
+
 
