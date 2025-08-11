@@ -38,10 +38,6 @@ class Database:
             logger.error(f"Ошибка при подключении к базе данных: {e}")
             raise
 
-    def close_session(self):
-        self.session.close()
-        logger.info("Сессия базы данных закрыта")
-
     def save_tasks(self, username, tasks,chat_id):
         try:
             user = self.session.query(User).filter_by(username=username).first()
@@ -140,4 +136,5 @@ class Database:
             return
         
         finally: 
+
             self.session.close()
