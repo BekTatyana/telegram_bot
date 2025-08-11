@@ -197,5 +197,5 @@ def help(message):
 /get_all_info - получить всю информацию из БД""",
     )
 
-
 bot.polling()
+
